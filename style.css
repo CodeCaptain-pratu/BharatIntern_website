@@ -1,7 +1,33 @@
+#cardsWrapper
+{
+    padding:2.5rem;
+}
+#cardsContainer
+{
+    padding:1rem;
+    gap:1rem;
+}
 #cardsContainer #card
 {
-    border:2px solid green;
-    padding:1rem;
+    width:280px;
+    height:320px;
+    padding:1.5rem 1rem 1rem 1rem;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+#cardsContainer #card h1
+{
+    font-size: 1.3rem;
+    font-weight:600;
+    padding: 12px 10px;
+    color: rgb(2 6 23);
+
+}
+
+#cardsContainer #card p
+{
+    color:rgb(71 85 105);
+    padding: 12px 10px;
+
 }
 #cardsContainer #card #bars
 {
@@ -11,6 +37,7 @@
     color:#052e16;
     border-radius: 50%;
     font-size: 1.2rem;
+
 }
 #cardsContainer #card #code
 {
@@ -38,4 +65,18 @@
     color:#7c2d12;
     border-radius: 80%;
     font-size: 1.2rem;
+}
+#rewards
+{
+    width:100%;
+    height:50%;
+    padding: 1.25rem;
+    gap:10rem;
+}
+#awardsimg
+{
+    width:150px;
+    height:150px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    padding: 1rem;
 }
