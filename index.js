@@ -3,3 +3,8 @@ gsap.to("#circle",{
     duration:4,
     repeat:-1,
 })
+let btn=document.querySelector("button");
+btn.addEventListener("click",function ()
+{
+    window.location.href="Apply.html";
+})
