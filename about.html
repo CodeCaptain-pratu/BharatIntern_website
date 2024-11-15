@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,15 @@
     <script src="https://kit.fontawesome.com/fe0b7883a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="output.css">
 </head>
+
 <body>
     <div id="wrapper" class="w-full h-screen relative">
-        <header class="w-full flex justify-around items-center px-20 py-4 shadow-md sticky top-0 left-0 bg-opacity-0 z-50">
+        <header
+            class="w-full flex justify-around items-center px-20 py-4 shadow-md sticky top-0 left-0 bg-opacity-0 z-50">
             <div class="flex justify-center items-center">
-                <a href="index.html"><img src="https://bharatintern.live/static/logo-d7abe237292b840869fa4f33f0e74976.png" class="w-1/4" alt="BhartIntern logo"></a>
+                <a href="index.html"><img
+                        src="https://bharatintern.live/static/logo-d7abe237292b840869fa4f33f0e74976.png" class="w-1/4"
+                        alt="BhartIntern logo"></a>
             </div>
             <nav class="list-none flex justify-center items-center gap-10 py-1 font-semibold">
                 <li class="p-2 text-gray-500 hover:text-green-600"><a href="index.html">Home</a></li>
@@ -21,16 +26,107 @@
                 <button class="px-9 py-1 h-12 hover:bg-green-600 transition rounded">Apply</button>
             </nav>
         </header>
+        <div id="aboutcontainer" class="w-full h-auto">
+            <h1 class="text-center text-3xl font-bold mb-10">About Us</h1>
+            <div id="aboutwrapper" class="flex justify-center items-center gap-20 p-10">
+                <div id="aboutimg" class="flex justify-center items-center">
+                    <img src="https://bharatintern.live/static/about-one-71ccec92531e0f5a57feb8c853f743de.png" class=""
+                        style="width:500px; height:350px;" alt="">
+                </div>
+                <div id="aboutinfo" class="w-1/2 h-auto flex flex-col gap-5">
+                    <h1 class="text-3xl font-bold">About Us</h1>
+                    <div id="animation1" class="w-24 bg-green-300 h-2 relative rounded">
+                        <div id="circle" class="w-3 h-3 rounded-full bg-green-500 absolute top-minus-2"></div>
+                    </div>
+                    <div id="info">
+                        <p class="text-slate-400 font-semibold">
+                            At Bharat Intern, we are passionate about empowering innovations that <br> shape a better
+                            future
+                            for
+                            businesses and individuals alike. <br> <br>Connects students with internships: Bharat Intern
+                            connects
+                            students with internships in a <br>variety of fields. This gives students the opportunity to
+                            gain
+                            experience, skills, and a <br>network. <br> <br>
+                            Gives students experience, skills, and a network: Internships can give students valuable
+                            <br>
+                            experience in their field. They can also help students develop new skills and build a
+                            network <br> of
+                            contacts. <br> <br>
+                            Is a great way to start your career: Internships can be a great way to start your career.
+                            <br>
+                            They
+                            can help you gain experience, skills, and a network that can help you land your first <br>
+                            job
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="aboutinfowrapper" class="flex gap-5 p-10">
+                <div id="aboutcards" class="flex flex-col gap-2 p-2" style="width:500px;">
+                    <h1 class="font-semibold text-xl">Simplified Internships</h1>
+                    <p>Explore virtual internships in Web Dev, App Dev, Full Stack, ML, and Data Science; focused
+                        learning</p>
+                </div>
+                <div id="aboutcards" class="flex flex-col gap-2 p-2" style="width:500px;">
+                    <h1 class="font-semibold text-xl">Our Mission</h1>
+                    <p>We ensures your success and building a trusted platform for valuable learning experiences. </p>
+                </div>
+                <div id="aboutcards" class="flex flex-col gap-2 p-2" style="width:500px;">
+                    <h1 class="font-semibold text-xl">Structured Learning</h1>
+                    <p>Enjoy growth-oriented internship at Bharat Intern, tailored for maximum skill development</p>
+                </div>
+            </div>
+        </div>
+        <div id="community" class="flex flex-col p-5">
+            <div id="topcommunity" class="flex justify-center items-center p-5">
+                <div id="communityContent" class="flex flex-col items-center p-5 gap-4">
+                    <h1 class="text-4xl font-bold">Our Flourishing Online community</h1>
+                    <div id="animation1" class="w-24 bg-green-300 h-2 relative rounded m-3">
+                        <div id="circle" class="w-3 h-3 rounded-full bg-green-500 absolute top-minus-2">
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500">Join a network of like-minded individuals, unlock new
+                        possibilities, and <br> experience growth on your journey to success.</p>
+                </div>
+            </div>
+            <div id="bottomcommunity" class="flex justify-center items-center gap-40 p-10">
+                <div id="communitycards" class="flex flex-col p-2">
+                    <h1 class="text-center text-3xl text-green-600 font-semibold">300K+</h1>
+                    <p class="text-slate-500">LinkedIn community</p>
+                </div>
+                <div id="communitycards" class="flex flex-col p-2">
+                    <h1 class="text-center text-3xl text-green-600 font-semibold">130K+</h1>
+                    <p class="text-slate-500">Telegram community</p>
+                </div>
+                <div id="communitycards" class="flex flex-col p-2">
+                    <h1 class="text-center text-3xl text-green-600 font-semibold">25K+</h1>
+                    <p class="text-slate-500">Youtube community</p>
+                </div>
+            </div>
+        </div>
+        <div id="aboutcontact" class="flex justify-center items-center p-10">
+            <div id="aboutcontactwrapper" class="w-1/2 flex justify-center items-center gap-20 p-10">
+                <div id="leftabout" class="">
+                    <h1 class="text-xl font-semibold">Have Any Questions About Us?</h1>
+                    <p class="text-base text-slate-500">Don't hesitate to contact us</p>
+                </div>
+                <div id="rightabout" class="">
+                    <button class="bg-purple-400 px-8 py-2 rounded-md text-white font-semibold" id="contact">CONTACT US</button>
+                </div>
+            </div>
+        </div>
         <footer id="webfooter" class="flex justify-center items-center p-10 bg-slate-300">
             <div id="webfooters" class="flex flex-col justify-center gap-5 p-10">
                 <div id="webfootertop">
-                    <img src="https://bharatintern.live/static/logo-d7abe237292b840869fa4f33f0e74976.png" 
-                    class="w-1/6" alt="">
+                    <img src="https://bharatintern.live/static/logo-d7abe237292b840869fa4f33f0e74976.png" class="w-1/6"
+                        alt="">
                 </div>
                 <div id="webfooterbottom">
                     <p class="text-slate-600">Our goal is to empower the next generation <br>
                         of tech leaders. Our internship program <br>
-                         offers hands-on experience in different <br>fields.</p>
+                        offers hands-on experience in different <br>fields.</p>
                 </div>
             </div>
             <div id="webfooters" class="flex flex-col justify-center gap-5 p-10">
@@ -65,7 +161,7 @@
                     </div>
                 </div>
             </div>
-            <div id="webfooters" class="flex flex-col justify-center gap-5 w-80 p-6">   
+            <div id="webfooters" class="flex flex-col justify-center gap-5 w-80 p-6">
                 <div id="webfootertop">
                     <h1 class="text-xl font-semibold pl-4">Address </h1>
                 </div>
@@ -88,14 +184,28 @@
 
         </footer>
         <footer class="border border-slate-600 flex justify-center items-center p-5 bg-slate-300">
-            <p class="text-slate-600">Copyright &copy;2024 Bharat Intern. All rights reserved by <span class="font-bold">BharatIntern</span></p>
+            <p class="text-slate-600">Copyright &copy;2024 Bharat Intern. All rights reserved by <span
+                    class="font-bold">BharatIntern</span></p>
         </footer>
     </div>
-    <script >
-        let btn =document.querySelector("button");
-        btn.addEventListener("click",function(){
-            window.location.href="Apply.html";
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        gsap.to("#circle", {
+            x: 85,
+            duration: 4,
+            repeat: -1,
+        })
+        let contact=document.querySelector("#contact");
+        contact.addEventListener("click",function(){
+            window.location.href="contact.html";
+        })
+        let btn = document.querySelector("button");
+        btn.addEventListener("click", function () {
+            window.location.href = "Apply.html";
         });
     </script>
 </body>
+
 </html>
