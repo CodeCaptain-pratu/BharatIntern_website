@@ -93,3 +93,29 @@
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 
 }
+
+/* #internship offers */
+#internship
+{
+
+}
+#internshipcards
+{
+
+}
+#programme
+{
+    position: relative;
+}
+#programme p
+{
+    position: absolute;
+    top:24.5rem;
+    left:2rem;
+    padding:20px 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 0px rgb(78, 77, 77);
+    overflow: hidden;
+    border-radius: 0.25rem;
+
+}
